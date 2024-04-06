@@ -1,0 +1,22 @@
+.body{
+    font-family: Comic, sans-serif;
+    background-color: red !important;
+}
+
+.header {
+    background-color: gray !important;
+    color: #fff;
+    padding: 20px   !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.logo{
+    order: -1
+}
+
+.logo img{
+    width: 200px;
+    height: auto !important;
+}
