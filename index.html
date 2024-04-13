@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Copa América 2024</title>
 </head>
 <body>
     <header>
-    <nav>
+        <div class="logo"><img src="img/logo_copa.png" alt="Bandera de Argentina"></div>
         <h1>Copa América 2024</h1>
-        <div class="logo">
-            <img src="img/logo_copa.png" alt="Logo de la Copa América">
-        </div>
-        <ul>
-            <li>Inicio</li>
-            <li>Calendario</li>
-            <li>Estadios</li>
-            <li>Noticias</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Calendario</a></li>
+                <li><a href="#">Estadios</a></li>
+                <li><a href="#">Noticias</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Contenido de la página -->
+    <section class="content">
+        <h2>Equipos participantes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Bandera</th>
+                    <th>Capitán</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Argentina</td>
+                    <td><img src="img/argentina.jpg" alt="Bandera de Argentina"></td>
+                    <td>Lionel Messi</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td><img src="img/brasil.jpg" alt="Bandera de Brasil"></td>
+                    <td>Neymar Jr.</td>
+                </tr>
+                <!-- Agrega más filas según sea necesario -->
+            </tbody>
+        </table>
+    </section>
 
     <footer>    
-        <p>&copy; 2024 Copa América, todos los derechos reservados. UESAN</p>
+        <p>&copy; 2024 Copa América, todos los derechos reservados. UESAN </p>
     </footer>
+
 </body>
 </html>
